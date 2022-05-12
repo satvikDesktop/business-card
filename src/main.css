@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body{
+    background-color: #23252C;
+}
+
+.box {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius:1.4rem;
+    height:160vh;
+    width:25vw;
+    margin-top:2.2rem;
+
+}
+@media only screen and (max-width: 600px) {
+    .box{
+        width:80vw;  
+    }
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.pfp {
+    width:25vw;
+    height:50vh;
+    border-radius: 1.4rem 1.4rem 0rem 0rem;
+}
+@media only screen and (max-width: 600px) {
+    .pfp{
+        width:80vw;
+    }
+}
+.desc{
+   text-align:center;
+   background-color:#1A1B21;
+}
+.name {
+  font-family : Roboto, sans-serif;
+  font-weight:700;
+  color:white;
+}
+.desig {
+   font-family : Roboto, sans-serif;
+   color: #F3BF99; 
+   font-weight:100;
+   font-size: 1rem;
+   padding-left:10px;
+   padding-right:10px;
+}
+button {
+    line-height: 40px;
+    width:80%;
+    background-color: white;
+    border:none;
+    border-radius:10px;
+    font-size:1.5rem;
+    font-family: Roboto, sans-serif;
+    font-weight:700;
+    color:#1A1B21;
+    height: 40px;
+}
+.head {
+    font-family : Roboto, sans-serif;
+    color:white;
+    text-align: left;
+    padding-left:15px;
+}
+.work {
+    font-family : Roboto, sans-serif;
+    font-weight: 100;
+    color:white;
+    text-align: left;
+    font-size:0.9rem;
+}
+.about {
+        font-family : Roboto, sans-serif;
+        font-weight: 100;
+        color:white;
+        text-align: left;
+        margin-left:20px;
+        font-size:0.9rem;
+        padding-right: 20px;
+}
+li{
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.foot {
+    display:flex;
+    background-color: #161619;
+    border-radius: 0rem 0rem 1.4rem 1.4rem ;
+    width:25vw;
+    height:12vh;
+    margin-bottom: 2rem;
+}
+@media only screen and (max-width: 600px) {
+    .foot{
+        width:80vw;     
+    }
+}
+.foot{
+    flex-direction: row;
+}
+.links{
+    width:40px;
+    
+}
+.foot {
+    align-items: center;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #161619;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
